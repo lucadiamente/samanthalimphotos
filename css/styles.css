@@ -158,14 +158,14 @@ header {
 .preview {
     height: 83vh;
     background-color: #FBFFFE;
-    background-image: url("chefnatnat-20\ copy.jpeg");
+    background-image: url("/images/chefnatnat-20\ copy.jpeg");
     background-size: cover;
 }
 
 .about-me {
     height: 75vh;
     display: grid;
-    grid-template-rows: repeat(10, 3rem) 1rem 1rem;
+    grid-template-rows: repeat(10, 3rem) repeat(3, 1rem) 0.5rem;
     grid-template-columns: repeat(11, 100px);
     position: relative;
     margin-bottom: 1rem;
@@ -275,7 +275,7 @@ header {
     height: 105vh;
     position: relative;
     border-bottom: 4px solid gray;
-    background-image: url("chefnatnat-20\ copy.jpeg");
+    background-image: url("/images/chefnatnat-20\ copy.jpeg");
     background-size: cover;
 }
 
