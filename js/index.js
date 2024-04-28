@@ -4,11 +4,15 @@ $(document).on("scroll", function() {
     var tags = $(".tag");
   
     for (var i = 0; i < tags.length; i++) {
-      var tag = tags[i];
-      if ($(tag).position().top < pageBottom) {
-        $(tag).addClass("visible");
+      if (document.getElementById("about").classList.contains("visible") && document.getElementById("portfolio").classList.contains("visible")) {
+        return
       } else {
+        var tag = tags[i];
+        if ($(tag).position().top < pageBottom) {
+        $(tag).addClass("visible");
+        } else {
         $(tag).removeClass("visible");
+        }
       }
     }
   });
