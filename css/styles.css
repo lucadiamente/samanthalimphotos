@@ -164,7 +164,7 @@ header {
 .preview {
   height: 83vh;
   background-color: #fbfffe;
-  background-image: url("/images/chefnatnat-20\ copy.jpeg");
+  background-image: url("../chefnatnat-20\-copy.jpeg");
   background-size: cover;
 }
 
@@ -282,7 +282,7 @@ header {
   height: 105vh;
   position: relative;
   border-bottom: 4px solid gray;
-  background-image: url("/images/chefnatnat-20\ copy.jpeg");
+  background-image: url("../chefnatnat-20\-copy.jpeg");
   background-size: cover;
 }
 
